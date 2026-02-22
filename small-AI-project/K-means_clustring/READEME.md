@@ -46,6 +46,7 @@ kmeans_clustering(points, max_clusters=20, plot=False)
 plot_data(data)
 plot_clusters(clusters)
 ```
+![مثال](plot.png)
 سمت چپ: داده اولیه
 
 سمت راست: داده خوشه‌بندی‌شده
@@ -90,5 +91,8 @@ pip install numpy matplotlib scipy scikit-learn
 تبدیل پروژه به ماژول قابل import
 
 استفاده از داده‌های واقعی برای تست
+
+
+
 
 
