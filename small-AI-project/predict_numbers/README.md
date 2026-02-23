@@ -45,6 +45,14 @@ np.savez("data/mnist.npz", x_train=x_train, y_train=y_train, x_test=x_test, y_te
 2. نوت‌بوک `notebooks/predict_numbers.ipynb` را باز کنید.
 3. سلول‌ها را به ترتیب اجرا کنید.
 
+```python
+sample_image = x_train_raw[np.random.randint(0, 60000)]
+predict_images(model, sample_image)
+```
+![مثال](predict.png)
+
 **برای استفاده از مدل آماده:** فایل مدل را در `models/mnist_model.h5` قرار دهید و از سلول‌های مربوط به بارگذاری مدل و پیش‌بینی استفاده کنید.
 
 **برای آموزش مدل از صفر:** سلول‌های مربوط به ساخت، آموزش و ذخیره مدل را اجرا کنید.
+
+
